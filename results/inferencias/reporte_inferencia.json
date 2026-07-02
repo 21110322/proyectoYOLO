@@ -1,0 +1,14 @@
+{
+  "resumen": {
+    "total_imagenes": 1,
+    "piezas_ok": 0,
+    "piezas_con_fallo": 1,
+    "tasa_aprobacion": 0.0
+  },
+  "detalle": [
+    {
+      "archivo": "test.jpg",
+      "detecciones": []
+    }
+  ]
+}

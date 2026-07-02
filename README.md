@@ -52,16 +52,17 @@ python scripts/01_preprocesamiento.py
 python scripts/02_entrenamiento.py
 5. Probar el modelo
 # Evaluar sobre imágenes de prueba
-python scripts/03_pruebas.py --test
+python scripts/pruebas.py --test
 
 # Analizar una imagen
-python scripts/03_pruebas.py --imagen dataset/pollo/test.jpg
+python scripts/pruebas.py --imagen dataset/yolo/test.jpg
+
 
 # Analizar una carpeta de imágenes
-python scripts/03_pruebas.py --carpeta dataset/images/test/
+python scripts/pruebas.py --carpeta dataset/images/test/
 
 # Detección en tiempo real con cámara
-python scripts/03_pruebas.py --camara
+python scripts/pruebas.py --camara
 📦 Dataset
 El dataset utilizado proviene de:
 
